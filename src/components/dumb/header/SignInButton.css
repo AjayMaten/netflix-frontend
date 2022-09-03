@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.signInBtn{
+  background-color: #e50914;
+  color: #ffff;
+  border: solid 2px #e50914;
+  border-radius:2px;
+  padding:5px 10px;
+  font-size: large;
+  cursor:pointer;
+}

@@ -1,0 +1,17 @@
+
+.subscribe-btn{
+  background-color: #e50914;
+  height:45px;
+  color:#ffff;
+  width:fit-content;
+  text-decoration: none;
+  padding:4px 20px;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.subscribe-btn:hover{
+  background-color: #FF1818;
+}
