@@ -8,6 +8,7 @@ import FeatureTitle from "../../dumb/header/FeatureTitle/FeatureTitle";
 import SubscribeButton from "../../dumb/Forms/Subscribe/SubscribeButton";
 import SubscribeWrapper from "../../dumb/Forms/Subscribe/SubscribeWrapper";
 import SubscribeEmail from "../../dumb/Forms/Subscribe/SubscribeEmail";
+import "./HeaderComponent.css";
 
 function HeaderComponent() {
   return (
@@ -22,9 +23,10 @@ function HeaderComponent() {
             Unlimited movies, TV shows and more.
           </FeatureTitle>
         </FeatureWrapper>
+
         <SubscribeWrapper>
           <SubscribeEmail type="email" placeholder="Email address" />
-          <SubscribeButton>Get Started ></SubscribeButton>
+          <SubscribeButton>Get Started `{">"}`</SubscribeButton>
         </SubscribeWrapper>
       </HeaderWrapper>
     </div>
