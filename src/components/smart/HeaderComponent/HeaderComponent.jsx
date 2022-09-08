@@ -26,7 +26,7 @@ function HeaderComponent() {
 
         <SubscribeWrapper>
           <SubscribeEmail type="email" placeholder="Email address" />
-          <SubscribeButton>Get Started `{">"}`</SubscribeButton>
+          <SubscribeButton>Get Started &gt;</SubscribeButton>
         </SubscribeWrapper>
       </HeaderWrapper>
     </div>

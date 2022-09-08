@@ -1,0 +1,21 @@
+.footer-section{
+  background-color: black;
+}
+.footer-wrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1000px;
+  margin:auto;
+  padding:20px 56px 70px 56px;
+  cursor: pointer;
+}
+.footer-column{
+  display:flex;
+  flex-direction: column;
+}
+.query-number{
+  color:#757575;
+  text-align: center;
+  font-weight: 400;
+  padding-top:50px;
+}

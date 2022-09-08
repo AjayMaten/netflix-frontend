@@ -1,0 +1,11 @@
+.sign-form-btn{
+  background-color: #e50914;
+  cursor: pointer;
+  color:#ffff;
+  border: none;
+  border-radius: 4px;
+  margin:0 0 12px;
+  padding:16px;
+  font-size: 16px;
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.accordian-title{
+  background-color: #303030;
+  padding:0.8rem 1.2rem;
+  color:#ffff;
+  font-size: 28px;
+  cursor:pointer;
+  margin-bottom: 2px;;
+}
+.title-img{
+  width: 24px;
+  float:right;
+  /* filter:invert(1); */
+  background-color: #303030;
+}

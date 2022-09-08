@@ -1,0 +1,13 @@
+.accordian-component{
+  background-color: black;
+}
+.h1-component{
+  color:white;
+  text-align: center;
+  font-size: 3.8rem;
+  padding:4.5rem 0;
+}
+.subscribe-accordian{
+  padding-top: 15px;
+  padding-bottom: 50px;
+}

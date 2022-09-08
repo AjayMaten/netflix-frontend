@@ -1,16 +1,16 @@
 
 .subscribe-btn{
   background-color: #e50914;
-  height:45px;
+  height:4rem;
   color:#ffff;
-  width:fit-content;
   text-decoration: none;
-  padding:4px 20px;
-  font-size: 24px;
-  font-weight: 500;
+  padding:auto;
+  font-size: 2rem;
+  font-weight: 400;
   border: none;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
+  padding:8px 15px;
 }
 .subscribe-btn:hover{
   background-color: #FF1818;
