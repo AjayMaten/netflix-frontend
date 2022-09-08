@@ -14,7 +14,7 @@ function JumboItem({ title, subTitle, alignment, imgSrc }) {
             <JumboSubHeading>{subTitle}</JumboSubHeading>
           </div>
           <div>
-            <JumboImage src={imgSrc} />
+            <JumboImage className="jumbo-image" src={imgSrc} />
           </div>
         </>
       )}
