@@ -16,7 +16,7 @@ function SignInComponent() {
         <SignInput type="password" placeholder="password" autoComplete="off" />
         <SignButton>Sign In</SignButton>
         <SignText>
-          New to Netflix? <SignLink>SignUp Now</SignLink>
+          New to Netflix? <SignLink to="/SignUp">SignUp Now</SignLink>
         </SignText>
         <SignCaptcha>
           This page is protected by Google reCAPTCHA to ensure you're not a bot.

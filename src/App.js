@@ -1,17 +1,19 @@
-// import logo from './logo.svg';
-// import "./App.css";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/Homepage/HomePage";
 import SignInPage from "./pages/SignInPage/SignInPage";
 import SignUpPage from "./pages/SignUpPage/SignUpPage";
 
 function App() {
   return (
-    <div className="App">
-      <HomePage></HomePage>
-      <SignInPage></SignInPage>
-      <SignUpPage></SignUpPage>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route exact path="/" element={<HomePage></HomePage>} />
+          <Route path="/SignIn" element={<SignInPage></SignInPage>} />
+          <Route path="/SignUp" element={<SignUpPage></SignUpPage>} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

@@ -17,7 +17,7 @@ function SignUpComponent() {
         <SignInput type="password" placeholder="password" autoComplete="off" />
         <SignButton>SignUp</SignButton>
         <SignText>
-          Already a User? <SignLink>SignIn Now</SignLink>
+          Already a User? <SignLink to="/SignIn">SignIn Now</SignLink>
         </SignText>
         <SignCaptcha>
           This page is protected by Google reCAPTCHA to ensure you're not a bot.
